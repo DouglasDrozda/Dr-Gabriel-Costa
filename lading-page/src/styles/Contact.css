@@ -1,0 +1,69 @@
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-container h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 50px;
+  font-weight: 900;
+  margin-top: 30px;
+  color: #d0a043;
+}
+
+.contact-text-container {
+  display: flex;
+  margin-top: 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+.infos-container {
+  display: flex;
+  flex-direction: column;
+  width: 30%
+}
+
+.contact-whats-container {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+  text-decoration: none;
+  color: black;
+}
+
+.contact-whats-container p {
+  font-size: 18px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.contain-img-mapa {
+  width: 50%
+}
+
+@media ( max-width: 991px) {
+  .contact-text-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .infos-container {
+    width: 100vw;
+  }
+
+  .contact-whats-container {
+    flex-direction: column;
+    margin: 0 20px;
+    text-align: center;
+  }
+
+  .logo-whats {
+    margin-bottom: 10px;
+    width: 42px;
+  }
+
+  .contain-img-mapa {
+    width: 85%;
+  }
+}

@@ -1,0 +1,88 @@
+.apresentation-container {
+  background-color: #7e7888;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.apresentation-sub-container {
+  justify-content: center;
+  width: 100%;
+  display: flex;
+}
+
+/* .apresentation-logo-container {
+  display: flex;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+} */
+
+.apresentation-title-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.apresentation-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.apresentation-title h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.enter-contact {
+  box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  background-color: #2b223c;
+  border-radius: 5px;
+  border: none;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  width: 100%;
+  padding: 10px;
+  margin: 50px 0;
+}
+
+.enter-contact:hover {
+  transition: 0.5s;
+  transform: scale(1.1);
+}
+
+.logo-whats {
+  margin: 0 10px;
+}
+
+@media ( max-width: 713px) {
+
+  .apresentation-title h1 {
+    font-size: 36px;
+  }
+
+  .enter-contact {
+    padding: 8px;
+    width: 70%;
+  }
+
+  .logo-whats {
+    width: 22px;
+  }
+
+  .apresentation-sub-container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
