@@ -24,8 +24,9 @@ class Header extends React.Component {
             </Navbar.Collapse>
           </Container>
         </Navbar>
-        <div className="teste">
-          <a href="https://wa.me/5513997284883" target="_blank" rel="noreferrer" className="contact-whats-container">
+        <div className="whats-fixed">
+          <a href="https://wa.me/5513997284883/?text=Olá,%20estou%20precisando%20de%20um%20advogado%20especialista%20em%20*Direito%20Imobiliário*.%20
+" target="_blank" rel="noreferrer" className="contact-whats-container">
             <img src={whatsapp} alt="" width="42px" />
           </a>
         </div>

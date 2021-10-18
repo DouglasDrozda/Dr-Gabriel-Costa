@@ -14,12 +14,13 @@ class Contact extends React.Component {
         <div className="contact-sub-container">
           <div className="contact-text-container">
             <div className="infos-container">
-            <div className="contact-whats-container">
+              <div className="contact-whats-container">
                 <img src={call} alt="" width="42px" className="logo-whats" />
                 <p>(13)3386-8126</p>
               </div>
               <div className="contact-whats-container">
-                <a href="https://wa.me/5513997284883" target="_blank" rel="noreferrer" className="contact-whats-container">
+                <a href="https://wa.me/5513997284883/?text=Olá,%20estou%20precisando%20de%20um%20advogado%20especialista%20em%20Direito%20Imobiliário.%20
+" target="_blank" rel="noreferrer" className="contact-whats-container">
                   <img src={whatsapp} alt="" width="42px" className="logo-whats" />
                   <p>(13)99728-4883</p>
                 </a>
