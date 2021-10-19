@@ -36,3 +36,9 @@
   font-family: 'Montserrat', sans-serif;
   color: rgba(0, 0, 0, 0.904);
 }
+
+@media ( max-width: 991px) {
+  .about-text-container p {
+    width: 90%;
+  }
+}

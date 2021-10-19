@@ -6,7 +6,9 @@ class Footer extends React.Component {
   render() {
     return (
       <div className="footer-container">
-        <p>Desenvolvido por <a href="https://www.linkedin.com/in/douglasdrozda/" rel="noreferrer" target="_blank"><img src={logoDouglas} alt="logoDouglas" width="150px"/></a> | 2021</p>
+        <p>&copy; Desenvolvido por</p>
+        <a href="https://www.linkedin.com/in/douglasdrozda/" rel="noreferrer" target="_blank"><img src={logoDouglas} alt="logoDouglas" width="140px"/></a>
+        <p>| 2021</p>
       </div>
     );
   }
