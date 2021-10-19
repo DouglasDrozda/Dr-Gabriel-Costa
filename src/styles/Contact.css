@@ -5,11 +5,12 @@
 }
 
 .contact-container h1 {
+  color: #d0a043;
   font-family: 'Montserrat', sans-serif;
   font-size: 50px;
   font-weight: 900;
+  overflow-y: hidden;
   margin-top: 30px;
-  color: #d0a043;
 }
 
 .contact-text-container {

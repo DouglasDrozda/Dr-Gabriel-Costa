@@ -8,10 +8,11 @@
 }
 
 .about-container h1 {
+  color: #d0a043;
   font-family: 'Montserrat', sans-serif;
   font-size: 50px;
   font-weight: 900;
-  color: #d0a043;
+  overflow-y: hidden;
 }
 
 .about-sub-container {
